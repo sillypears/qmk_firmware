@@ -3,8 +3,8 @@
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x63CC
+#define VENDOR_ID       0x0684
+#define PRODUCT_ID      0x0070
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    Worldspawn00
 #define PRODUCT         Gothic70
@@ -26,7 +26,7 @@
 #define RGB_DI_PIN F4
 #ifdef RGB_DI_PIN
 #define RGBLIGHT_ANIMATIONS
-#define RGBLED_NUM 7
+#define RGBLED_NUM 13
 #define RGBLIGHT_HUE_STEP 8
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
