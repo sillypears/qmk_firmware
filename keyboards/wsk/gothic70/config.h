@@ -3,12 +3,20 @@
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
+<<<<<<< HEAD
 #define VENDOR_ID       0x0901
 #define PRODUCT_ID      0x0070
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    Worldspawn00
 #define PRODUCT         Gothic70
 #define DESCRIPTION     Gothic70 Expanded Ergo Keyboard
+=======
+#define VENDOR_ID       0x5753  // "WS"
+#define PRODUCT_ID      0x63CC
+#define DEVICE_VER      0x0001
+#define MANUFACTURER    Worldspawn00
+#define PRODUCT         Gothic70
+>>>>>>> master
 
 /* key matrix size */
 #define MATRIX_ROWS 5
